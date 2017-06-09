@@ -31,7 +31,7 @@ i {
 	border-radius: 5px;
 }
 
-nav .navbar-collapse *,
+nav *,
 #fourth-section * {
 	text-shadow: -3px 3px 4px rgba(0, 0, 0, .5);
 }
@@ -43,7 +43,7 @@ nav .navbar-collapse *,
 	box-shadow:none;  
 }
 
-#first-section > .container *,
+#first-section *,
 #third-section *,
 #fourth-section *,
 #sixth-section .btn,
