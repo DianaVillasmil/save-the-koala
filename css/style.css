@@ -11,6 +11,11 @@ p {
 	font-family: Lato, sans-serif;
 }
 
+i {
+	font-size: 7em !important;
+	padding: 10px;
+}
+
 .bg-brown {
 	background-color: #A89F68;
 }
@@ -29,6 +34,7 @@ p {
 #first-section *,
 #third-section *,
 #fourth-section *,
+#sixth-section .btn,
 #seventh-section * {
 	color: white;
 	font-weight: bold;
@@ -37,15 +43,16 @@ p {
 #second-section h2, 
 #second-section h4,
 #second-section a,
-#fifth-section *,
+#fifth-section h3,
+#fifth-section i,
 footer .about,
 footer a
 {
 	color:  #A89F68;
 }
 
-#third-section h2,
-#sixth-section h2 {
+#third-section h3,
+#sixth-section h3 {
 	color: #41521F;
 }
 
@@ -110,6 +117,36 @@ footer {
 
 #fourth-section * {
 	text-shadow: -3px 3px 4px rgba(0, 0, 0, 1);
+}
+
+#fifth-section *,
+#sixth-section *{
+	text-align: center;	
+}
+
+#sixth-section .spaced {
+	letter-spacing: .5em;
+}
+
+#sixth-section .money {
+	color: white;
+	font-weight: bold;
+	display: flex;
+	justify-content: center
+}
+
+#sixth-section .money .num{
+	font-size: 5em;
+	line-height: 1em;
+	font-weight: normal;
+}
+
+#sixth-section .money .sup{
+	margin-bottom: auto;
+}
+
+#sixth-section .money .sub{
+	margin-top: auto;
 }
 
 
