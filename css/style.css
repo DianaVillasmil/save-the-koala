@@ -31,11 +31,33 @@ p {
 #fourth-section *,
 #seventh-section * {
 	color: white;
+	font-weight: bold;
 }
 
+#second-section h2, 
+#second-section h4,
+#second-section a,
+#fifth-section *,
+footer .about,
+footer a
+{
+	color:  #A89F68;
+}
+
+#third-section h2,
+#sixth-section h2 {
+	color: #41521F;
+}
+
+
 #first-section,
-#second-section {
+#fourth-section {
 	height: 100vh;
+}
+
+section,
+footer {
+	padding: 100px 0;
 }
 
 #first-section {
@@ -47,19 +69,47 @@ p {
 #first-section > .container,
 #first-section > .container > .row,
 #second-section > .container,
-#second-section > .container > .row {
+#second-section > .container > .row,
+#third-section > .container,
+#third-section > .container > .row {
 	height: 100%;
 }
 
 #first-section > .container > .row,
-#second-section > .container > .row {
+#second-section > .container > .row,
+#third-section > .container > .row {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 }
 
-#second-section #cute {
+#second-section img,
+#third-section img {
 	width: 100%;
+}
+
+#second-section .contenido > .row {
+	display: flex;
+}
+
+#second-section .col2 {	
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+}
+
+#third-section img {
+	border: 10px solid white;
+}
+
+#fourth-section {
+	background-image: url(../img/all.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+#fourth-section * {
+	text-shadow: -3px 3px 4px rgba(0, 0, 0, 1);
 }
 
 
