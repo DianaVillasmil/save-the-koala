@@ -2,3 +2,64 @@
 wood brown: A89F68;
 army green: 41521F;
 */
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: bold;
+}
+
+p {
+	font-family: Lato, sans-serif;
+}
+
+.bg-brown {
+	background-color: #A89F68;
+}
+
+.bg-green {
+	background-color: #41521F;
+}
+
+.btn {
+	font-size: 1.25em;
+	font-weight: bold;
+	padding: 10px 15px;
+	border-radius: 5px;
+}
+
+#first-section *,
+#third-section *,
+#fourth-section *,
+#seventh-section * {
+	color: white;
+}
+
+#first-section,
+#second-section {
+	height: 100vh;
+}
+
+#first-section {
+	background-image: url(../img/portada.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+#first-section > .container,
+#first-section > .container > .row,
+#second-section > .container,
+#second-section > .container > .row {
+	height: 100%;
+}
+
+#first-section > .container > .row,
+#second-section > .container > .row {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#second-section #cute {
+	width: 100%;
+}
+
+
